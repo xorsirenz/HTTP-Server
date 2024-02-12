@@ -12,7 +12,7 @@ t = Terminal()
 def fastshell():
     cwd = os.getcwd()
     username = os.getlogin()
-    print("[" + t.green("+") + "][" + username + ":" + cwd + "]$") 
+    print("[" + t.green("+") + "][" + username + ":" + cwd + "]$")
     print("[" + t.green("+") + "]Enter 'Q' to quit")
     try:
         while True:
